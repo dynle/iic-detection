@@ -1,6 +1,6 @@
-train: ./train/images
-val: ./valid/images
-test: ./test/images
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
 nc: 4
 names: ['chips-consome', 'chips-nori', 'coffee-black', 'coffee-latte']
@@ -8,6 +8,6 @@ names: ['chips-consome', 'chips-nori', 'coffee-black', 'coffee-latte']
 roboflow:
   workspace: yolov-2breb
   project: shop-s5c1b
-  version: 1
+  version: 3
   license: CC BY 4.0
-  url: https://universe.roboflow.com/yolov-2breb/shop-s5c1b/dataset/1
+  url: https://universe.roboflow.com/yolov-2breb/shop-s5c1b/dataset/3
