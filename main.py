@@ -7,7 +7,9 @@ cap.set(3, 640)
 cap.set(4, 480)
 
 # trained model
-model = YOLO("runs/exp3/weights/best.pt")
+# model = YOLO("runs/exp3/weights/best.pt")
+# model = YOLO("runs/detect/train/weights/best.pt")
+model = YOLO("runs/detect/train2/weights/best.pt")
 
 # object classes
 classNames = ['chips-consome', 'chips-nori', 'coffee-black', 'coffee-latte']
